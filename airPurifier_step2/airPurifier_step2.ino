@@ -84,7 +84,7 @@ void loop()
   while(client.available())
   {
     String data = client.readStringUntil('\n'); //readline();
-    Serial.print("data:");Serial.println(data);
+    //Serial.print("data:");Serial.println(data);
 
     // data parsing code
     String temp = "<pm10Value>";
