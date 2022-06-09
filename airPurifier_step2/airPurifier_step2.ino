@@ -89,7 +89,7 @@ void loop()
     // data parsing code
     String temp = "<pm10Value>";
     
-    int s = data.indexOf(temp) + temp.length(); // 길이 = 6
+    int s = data.indexOf(temp) + temp.length();
     int e = data.indexOf("</pm10Value>");
     if(s != -1 && e != -1) { strPM10 = data.substring(s,e); }
   }
