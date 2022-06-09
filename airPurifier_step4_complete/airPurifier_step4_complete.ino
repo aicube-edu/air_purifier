@@ -24,8 +24,8 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 const int fan = D2;
 
 //============== parameters for firebase ==============
-#define FIREBASE_HOST "air-purifier-project-default-rtdb.firebaseio.com" 
-#define FIREBASE_AUTH "1Tqa2FaVrVBrf1HnECyWxUlLycDjD5dCgjhtQefH"
+#define FIREBASE_HOST "파이어베이스 실시간데이터베이스 주소" 
+#define FIREBASE_AUTH "파이어베이스 실시간데이터베이스 비밀번호"
 FirebaseData firebaseData;
 FirebaseJson json;
 
