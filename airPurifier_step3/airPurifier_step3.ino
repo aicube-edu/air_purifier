@@ -3,13 +3,14 @@
 #include "FirebaseESP8266.h"
 
 //============== parameters for finedust ==============
-const char* ssid = "YangJipsa";
-const char* password = "15151515";
+const char* ssid = "와이파이 SSID";
+const char* password = "와이파이 비밀번호";
 
 const char* host = "apis.data.go.kr";
 const int httpsPort = 80;
-String yourkey = "hlCMHtutt%2FjyibxYtlhLU0DigT9nehzdxLz8WvH3kvoVpHAWjK%2BDH1v4a87T9%2FPOZrmAL76VWu%2BKoWpDMvKMZw%3D%3D";
-String station_id = "봉담읍";
+
+String yourkey = "서비스키";
+String station_id = "지역";
 
 const int fineDustClean = 30; // 0~30
 const int fineDustGood = 100;  // 31~100
